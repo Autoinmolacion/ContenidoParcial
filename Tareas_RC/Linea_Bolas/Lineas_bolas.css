@@ -1,0 +1,34 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: black;
+    border-width: 5px;
+    border-color: red;
+}
+.canvas{
+    border-width: 5px;
+    border-color: red;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+    width: 60px;
+    position: relative;
+    border-width: 5px;
+    border-color: red;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+    margin: 5px 0; 
+    border-width: 5px;
+    border-color: rgb(255, 255, 255);
+}
